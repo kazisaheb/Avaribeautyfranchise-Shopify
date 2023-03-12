@@ -1,0 +1,1038 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,800;1,600&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button.hero {
+  width: 176px;
+}
+
+.footer small {
+  text-align: center;
+  color: #F2ECD0;
+  font-family: "Jost", Sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.footer p {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Jost", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+* {
+  transition: .3s ease;
+}
+
+.elementor-heading-title {
+  color: #FFFFFF;
+
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+.elementor-element-p {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Jost", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+.overview h2 {
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 31.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.overview p {
+  color: #000000;
+  font-family: "Jost", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.overview h3 {
+  padding-top: 13px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+button {
+  background: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button i.fa-solid.fa-angle-right,
+button i.fa-solid.fa-download {
+  padding-right: 5px;
+}
+
+button:hover {
+  background: #F2ECD0;
+  color: black;
+  border: 2px solid black;
+}
+
+.max_width {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.sticky {
+  background-color: black;
+  padding: 5px !important;
+}
+
+.menu {
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.menuScale.scrolled {
+  transform: scale(.9);
+}
+
+
+.menu img {
+  width: 110px;
+}
+
+.menu .menuScale {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Jost", Sans-serif;
+  font-weight: 500;
+}
+
+.center_ul a {
+  transition: .3s ease;
+}
+
+.center_ul a:hover {
+  color: rgb(250, 169, 169);
+}
+
+.right_ul a {
+  border: 2px solid white;
+  padding: 12px 40px;
+  border-radius: 30px;
+  transition: .5s ease;
+  font-family: "Jost", Sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.right_ul a:hover {
+  background-color: white;
+  color: black;
+}
+
+.menu ul li a:hover {
+  border-bottom: 2px solid #DCB6AC;
+  padding-bottom: 10px;
+  color: #DCB6AC;
+}
+
+/* Hamburger menu */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-icon-line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-icon.active .menu-icon-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-icon.active .menu-icon-line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.active .menu-icon-line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Hamburger menu */
+
+
+
+.info {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+section.hero {
+  background-image: url(https://avaribeautyfranchise.com/wp-content/uploads/2023/01/bg111.jpg);
+  color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero_bg {
+  background: #00000080;
+  padding: 100px;
+}
+
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hero_left h3 {
+  color: #FFFFFF;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+
+  letter-spacing: 2px;
+}
+
+
+.hero_left h2 {
+  color: #FFFFFF;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 53px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.hero_left p {
+  color: #FFFFFF;
+  font-family: "Jost", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+.hero_right {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_right img {
+  width: 400px;
+  max-width: 100%;
+  mix-blend-mode: exclusion;
+}
+
+section.mission {
+  display: flex;
+  align-items: center;
+  background: black;
+  color: white;
+}
+
+.mission_left {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.mission_left h2 {
+  color: #FFFFFF;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.mission_right {
+  background: #dadada;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mission_right img {
+  width: 215px;
+  padding: 30px;
+}
+
+section.info {
+  padding: 40px;
+}
+
+section.info p {
+  text-align: center;
+  color: #000000;
+  font-family: "Jost", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+section.interest {
+  background-image: url(https://avaribeautyfranchise.com/wp-content/uploads/2022/12/1E6A9088-scaled.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.interest_content {
+  background: #000000a8;
+  color: white;
+  padding: 100px;
+}
+
+section.story .max_width {
+  gap: 60px;
+}
+
+.story {
+  padding: 50px 0px;
+}
+
+.story_img {
+  width: 45%;
+}
+
+.story_text {
+  width: 48%;
+}
+
+.story_text h4 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+
+  letter-spacing: 2px;
+}
+
+.story_text h2 {
+  color: #000000;
+  padding: 20px 0px;
+  font-size: 31.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.story_text p {
+  color: #000000;
+  font-family: "Jost", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+section.invest {
+  background-image: url(https://avaribeautyfranchise.com/wp-content/uploads/2022/12/1E6A9088-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.invest_bg {
+  background-color: rgb(255 255 255 / 85%);
+}
+
+.invest_container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+
+.invest_left {
+  background: black;
+  color: white;
+  width: 40%;
+  padding: 50px;
+}
+
+.invest_left h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.invest_left ul {
+  margin-left: -40px;
+}
+
+.invest ul li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+
+  font-family: "Jost", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.invest_right {
+  width: 50%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.invest_right img {
+  max-width: 400px;
+  margin-left: -100px;
+}
+
+.invest_right ul {
+  text-align: left;
+  color: black;
+  margin-top: -10px;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+i.fa-solid.fa-circle-check {
+  font-size: 22px;
+}
+
+section.invest .max_width {
+  gap: 50px;
+}
+
+section.process {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.process_left {
+  width: 100%;
+}
+
+.process_right {
+  width: 100%;
+  text-align: center;
+}
+
+.process_right h6 {
+  font-size: 16px;
+  padding-bottom: 32px;
+}
+
+.process_right 3 {
+  font-size: 30px;
+}
+
+.process_icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  gap: 12px;
+}
+
+.process_right .icons img {
+  width: 90px;
+}
+
+.process_right span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.process_right span button {
+  background: black;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  margin: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.process_right span h5 {
+  margin: 0;
+}
+
+.process_right span p {
+  margin: 0;
+  color: #101010;
+  font-family: "Jost", Sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+
+section.support {
+  background-image: url(https://avaribeautyfranchise.com/wp-content/uploads/2022/12/1E6A9088-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.support_bg {
+  background-color: #000000af;
+  padding: 50px;
+  margin-top: -4px;
+}
+
+.support h2 {
+  margin: 20px;
+}
+
+section.support .max_width {
+  flex-direction: column;
+}
+
+.right_icons {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.right_icons .iconss img {
+  height: 132px;
+}
+
+.right_icons .iconss {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.right_icons button {
+  height: 40px;
+}
+
+.support_steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.support_step h4 {
+  padding: 20px 0px 0px 0px;
+  color: #000000;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.support_step p {
+  color: #656565;
+  font-family: "Jost", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.support_step {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  padding: 22px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  background-image: linear-gradient(to top left, transparent 90%, #aeaaaa97 70%);
+  position: relative;
+}
+
+.support_step::before {
+  content: "";
+  background: #aeaaaa5d;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 0;
+  transition: height .5s ease;
+  border-radius: 5px;
+}
+
+.support_step:hover::before {
+  height: 100%;
+}
+
+.support_step:hover {
+  background-image: linear-gradient(to top left, transparent 90%, rgba(0, 255, 208, 0) 70%);
+}
+
+
+.support_step:last-child {
+  background-color: transparent;
+  background-image: none;
+}
+
+.support_step:last-child:hover {
+  background-color: transparent;
+}
+
+.support_step:last-child:hover::before {
+  height: 0;
+}
+
+.support_step img {
+  width: 100px;
+  cursor: pointer;
+}
+
+
+
+.overview {
+  padding: 50px;
+}
+
+.overview i.fa-solid {
+  font-size: 35px;
+  background: #202020;
+  color: #ebe3e3;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.overview i.fa-solid:hover {
+  filter: invert(1);
+}
+
+.overview h2 {
+  text-align: center;
+  margin: revert;
+}
+
+.overview_steps {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  min-height: 200px;
+}
+
+.overview_steps img {
+  width: 100px;
+}
+
+section.faqs,
+section.download {
+  background-image: url(https://avaribeautyfranchise.com/wp-content/uploads/2022/12/2a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.faqs_bg {
+  background: linear-gradient(to right, transparent, transparent, #ffffffe7, #ffffffe7, #ffffffe7);
+}
+
+.left_faq {
+  width: 100%;
+}
+
+.faq {
+  width: 100%;
+  padding: 100px;
+}
+
+.faq h3 {
+  background: #fdfdfc;
+  border-bottom: 4px solid #F2ECD0;
+  padding: 15px;
+  font-style: italic;
+  margin: 10px;
+}
+
+
+.a1,
+.a2 {
+  display: none;
+  background-color: white;
+  padding: 15px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.q1,
+.q2 {
+  margin: 0;
+  cursor: pointer;
+}
+
+#q1:checked~.a1 {
+  display: block;
+  width: 451px;
+
+}
+
+#q2:checked~.a2 {
+  display: block;
+  width: 451px;
+
+}
+
+.faq h1 {
+  margin-left: 10px;
+}
+
+.faq input[type="checkbox"] {
+  display: none;
+}
+
+.contact {
+  padding: 80px 0px;
+  background: #F5F3EF;
+}
+
+.contact_form {
+  box-shadow: 26px 0px 10px 0px rgb(0 0 0 / 25%);
+  z-index: 1;
+  border-radius: 30px;
+  padding: 40px;
+  text-align: center;
+  background: white;
+  width: 40%;
+}
+
+
+.contact_form h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 10px 0px;
+}
+
+.contact_form img {
+  width: 70px;
+}
+
+.contact_img {
+  width: 490px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.contact_form input {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid gray;
+  margin: 5px 0;
+}
+
+textarea#message {
+  height: 120px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.download_text h3 {
+  color: #FFFFFF;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  padding: 5px 0px;
+}
+
+.download_text h2 {
+  color: #FFFFFF;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 31.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section.download .max_width {
+  justify-content: space-around;
+}
+
+section .download_bg {
+  background-color: rgba(0, 0, 0, 0.563);
+  padding: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 150px;
+}
+
+.footer img {
+  width: 200px;
+}
+
+.social {
+  padding: 10px 0px;
+}
+
+.icon_box {
+  background: white;
+  padding: 5px 5px 5px 5px;
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.icon_box:hover {
+  background: #F2ECD0;
+}
+
+.icon_box i {
+  line-height: 20px;
+  color: black;
+}
+
+.location i {
+  margin-right: 5px;
+}
+
+
+
+/* for responsive */
+
+@media only screen and (max-width: 880px) {
+  ul.center_ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .menu .menuScale {
+    justify-content: space-between;
+  }
+
+  .menu img {
+    width: 80px;
+  }
+
+  .invest_right img {
+    margin: auto;
+  }
+
+  ul.right_ul,
+  ul.center_ul {
+    display: none;
+  }
+
+  .menu-icon-line {
+    margin-bottom: 5px;
+  }
+
+  .center_ul_active {
+    display: block !important;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: white;
+    width: 100%;
+  }
+
+  ul.center_ul li {
+    margin: 10px;
+    margin-left: -15px;
+  }
+
+  ul.center_ul li a {
+    color: black;
+    font-size: 12px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .hero_bg {
+    padding: 0;
+  }
+
+  .interest_content {
+    padding: 40px;
+  }
+
+
+  .hero_left {
+    margin-top: 103px;
+  }
+
+  .hero_left h2 {
+    font-size: 30px;
+  }
+
+  .hero .max_width {
+
+    padding: 10px;
+
+  }
+
+  .invest_container {
+    flex-wrap: wrap;
+
+  }
+
+  .invest_left,
+  .invest_right {
+    width: 100%;
+  }
+
+  section.story .max_width,
+  .overview .max_width,
+  .hero .max_width,
+  .contact .max_width,
+  .faqs .max_width {
+    flex-wrap: wrap;
+  }
+
+  .story_img {
+    width: 100%;
+  }
+
+  .story_text {
+    width: 100%;
+  }
+
+  section.mission {
+    flex-wrap: wrap;
+  }
+
+  .mission_left {
+    text-align: center;
+  }
+
+  section.story .max_width {
+    gap: 0px;
+  }
+
+  /* .story_text {
+    padding: 50px 30px;
+    text-align: justify;
+  } */
+  .story_text {
+    width: 100%;
+    padding: 30px;
+  }
+
+  section.process {
+    flex-wrap: wrap;
+    padding: 50px 0px;
+  }
+
+  button {
+    margin: 0 auto;
+  }
+
+  .overview_steps {
+    width: 50%;
+  }
+
+  section.download .max_width {
+    flex-wrap: wrap;
+  }
+
+
+  .icons {
+    margin: 0 auto;
+  }
+
+  section.footer {
+    padding: 20px;
+  }
+
+  .faq {
+    padding: 40px;
+  }
+}
+
+/* end mobile responsive */
